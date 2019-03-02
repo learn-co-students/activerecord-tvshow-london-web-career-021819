@@ -41,7 +41,7 @@ Use the following resources to help you find the Active Record query methods tha
 
 ## Instructions
 
-### Migration
+### Migration - DONE
 
 * Run `mkdir db` and then `mkdir db/migrate` to create the `migrate` folder within `db`. Then create a file in the `db/migrate` folder called `001_create_shows.rb`. In this file, write the migration code to create a `shows` table. The table should have `name`, `network`, `day`, and `rating` columns. `name`, `network`, and `day` have a datatype of string, and `rating` has a datatype of integer.
 * Create an `app` folder with a `models` folder within it, and then create a file, `show.rb`, in `app/models`. In this file, you will define a `Show` class that inherits from `ActiveRecord::Base`.
